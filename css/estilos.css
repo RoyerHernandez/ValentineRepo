@@ -50,7 +50,6 @@ selector de id #portafolio
   .icon-instagram:before {
     content: "\e905";
     font-size: 250%;
-    color: deeppink;
   }
   .icon-facebook:before {
     content: "\e906";
@@ -78,6 +77,7 @@ body{
     font-weight: normal;
     font-family: 'Lovers Quarre';
     margin: 0;
+    background: #fce0f5; 
 }
 .header {
     /*background-color: rgb(240, 145, 177);*/
@@ -163,12 +163,12 @@ h1{
     letter-spacing: -.1px;  
     color:  #f35489;
     margin: 0;
-    font-weight: lighter;
+    font-weight: bold;
     font-family: 'Lovers Quarre';
-
+    margin-top: -30%;    
 }
 h2{
-    color: #026fff;
+    color: rgb(241, 13, 63);
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -191,29 +191,29 @@ h2{
     /*border-radius: 100%;*/
 }
 .portfolio{
-    background: #fafafa;    
+    background: #fce0f5;    
     padding: 20px;
 }
 .html-video{
     width: 100%;
     height: auto;
 }
-.project-languaje, 
-.project-date,
-.project-url,
-.project-description
+.promociones-languaje, 
+.promociones-date,
+.promociones-url,
+.promociones-description
 {
     margin: 10px 0;
 }
-.project strong{
+.promociones strong{
     font-family: 'Fjalla One', sans-serif;  
 }
-.project-title{
+.promociones-title{
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 10px;
 }
-.project{
+.promociones{
     display: flex;
     border: 1px solid rgb(36, 37, 39);
     border-radius: 10px;
@@ -225,13 +225,13 @@ h2{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.project-details{
+.promociones-details{
     width: 50%;
 }
-.project-imageContainer{
+.promociones-imageContainer{
     width: 50%;
 }
-.project-imageContainer img {
+.promociones-imageContainer img {
     width: 100%;
 }
 .experience-list{
@@ -274,7 +274,7 @@ h2{
     border-radius: 5px;
 }
 .contact{
-    background:  rgb(34 84 185);
+    background:  rgb(241, 13, 63);
     display: flex;
     color: white;
     align-items: center;
@@ -329,7 +329,7 @@ h2{
     font-family: 'Source Sans Pro', sans-serif;
 }
 .footer{
-    background:  rgb(22 47 97);
+    background-color: rgb(241, 13, 63);
     color: white;
     display: flex;
     align-items: center;
@@ -381,16 +381,18 @@ h2{
         font-size: 2em;
         z-index: 2;
         background: rgba(0,0,0,.5);
+        margin-top: 0;
     }
 }
 @media screen and (max-width: 767px) {
     .menu{
         position: fixed;
         z-index: 3;
-        background: rgba(2, 111, 255,0.6);
+        background: rgba(241, 13, 63,.6);
         top: 0;
         left: -100vw;
         width: 100vw;
+        font-weight: .2;
         /*height: 100vw;*/
         bottom: 0;
         display: flex;
@@ -419,31 +421,31 @@ h2{
     .header .logo {
         text-align: center;
     }
-    .project{
+    .promociones{
         display: block;
     }     
-    .project-imageContainer{
+    .promociones-imageContainer{
         width: auto;
         text-align: center;
     }
-    .project-details{
+    .promociones-details{
         width: auto;
         font-size: 18px;
     }
-    .project-languaje, .project-date, .project-url{
+    .promociones-languaje, .promociones-date, .promociones-url{
         margin: .2em 0;
     }
-    .project-title{
+    .promociones-title{
         font-size: 1.2em;
         margin-bottom: .3em;
     }
-    .project-languaje{
+    .promociones-languaje{
         font-size: 1em;
     }   
-    .project-date{
+    .promociones-date{
         font-size: 1em;
     }    
-    .project-url{
+    .promociones-url{
         font-size: .7em;
     }    
     .experience{
@@ -458,23 +460,23 @@ h2{
     h1{
         font-size: 1.5em;
     }
-    .project-details{
+    .promociones-details{
         width: auto;
         font-size: 16px;
     }
-    .project-title{
+    .promociones-title{
         font-size: 1.2em;
     }
-    .project-languaje{
+    .promociones-languaje{
         font-size: 1em;
     }   
-    .project-date{
+    .promociones-date{
         font-size: 1em;
     }    
-    .project-url{
+    .promociones-url{
         font-size: .7em;
     }   
-    .project-languaje, .project-date, .project-url{
+    .promociones-languaje, .promociones-date, .promociones-url{
         margin: .2em 0;
     }    
     .experience-details{
@@ -492,28 +494,34 @@ h2{
     .form-email h3{
         margin-top: 0;
     }
+    .menu{
+        font-size: .7em;
+    }
 }
 @media screen and (max-width: 320px) {
     h1{
         font-size: 1.2em;
     }
-    .project-details{
+    .promociones-details{
         width: auto;
         font-size: 14px;
     }
-    .project-title{
+    .promociones-title{
         font-size: 1.2em;
     }
-    .project-languaje{
+    .promociones-languaje{
         font-size: 1em;
     }   
-    .project-date{
+    .promociones-date{
         font-size: 1em;
     }    
-    .project-url{
+    .promociones-url{
         font-size: .7em;
     } 
-    .project-languaje, .project-date, .project-url{
+    .promociones-languaje, .promociones-date, .promociones-url{
         margin: .2em 0;
+    }
+    .menu{
+        font-size: .7em;
     }   
 }
