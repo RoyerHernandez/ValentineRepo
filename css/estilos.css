@@ -158,24 +158,24 @@ h6{
     font-family: 'Fjalla One', sans-serif;    
 }
 h1{
-    font-size: 40px;
+    font-size: 70px;
     line-height: 1.5;
     letter-spacing: -.1px;  
     color:  #f35489;
     margin: 0;
-    font-weight: bold;
-    font-family: 'Lovers Quarre';
+    font-family: 'Lovers Quarrel', cursive;
     margin-top: -30%;    
 }
 h2{
     color: rgb(241, 13, 63);
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 50px;
     margin-bottom: 40px;
 }
 .hero strong{
     color: rgb(241, 13, 63);
+    justify-items: center;
+    align-items: center;
 }
 .hero{
     height: 300px;    
